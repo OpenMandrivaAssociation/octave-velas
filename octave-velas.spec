@@ -3,7 +3,7 @@
 Summary:	VELAS is a user-friendly open-source toolbox for the visualization and analysis
 Name:		octave-velas
 Version:	1.0.6
-Release:	2
+Release:	1
 License:	GPLv3+
 Group:		Sciences/Mathematics
 #Url:		https://packages.octave.org/velas/
@@ -37,7 +37,7 @@ used for any crystal symmetry.
 %autosetup -p1 -n VELAS-%{version}
 
 # fix version in DESCRIPTION
-sed -i -e "s|Version: 1.0.5|Version: %{version}|" DESCRIPTION
+sed -i -e "s|Version: 1.0.6
 
 %build
 %octave_pkg_build
