@@ -37,7 +37,7 @@ used for any crystal symmetry.
 %autosetup -p1 -n VELAS-%{version}
 
 # fix version in DESCRIPTION
-sed -i -e "s|Version: 1.0.6
+sed -i -e "s|Version: 1.0.6|Version: %{version}|" DESCRIPTION
 
 %build
 %octave_pkg_build
