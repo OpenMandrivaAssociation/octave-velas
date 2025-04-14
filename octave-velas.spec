@@ -3,12 +3,11 @@
 Summary:	VELAS is a user-friendly open-source toolbox for the visualization and analysis
 Name:		octave-velas
 Version:	1.0.6
-Release:	2
+Release:	3
 License:	GPLv3+
 Group:		Sciences/Mathematics
 #Url:		https://packages.octave.org/velas/
 Url:		https://github.com/ranzhengcode/VELAS
-#Source0:	https://github.com/ranzhengcode/VELAS/archive/refs/tags/v%{version}/%{octpkg}-%{version}.tar.gz
 Source0:	https://github.com/ranzhengcode/VELAS/archive/v%{version}/%{octpkg}-%{version}.tar.gz
 
 BuildRequires:  octave-devel >= 5.2.0
